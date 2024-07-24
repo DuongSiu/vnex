@@ -27,3 +27,123 @@
 body {
   color: var(--text-color);
 }
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: space-between;                                                                                                                                                                                                                                                                                     
+  background-color: var(--bg-color);
+  box-shadow: rgb(14, 55, 54 / 15%);
+  transition: 0.5s;
+}
+.title {
+  background-color: #eff0f1;
+  height: 37px;
+  width: 100vw;
+  color: #6B6B6B;
+  padding: 9px 39px 8px 39px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.headtitle1{
+  font-size: 15px;
+  padding-left: 3vw;
+
+}
+.headtitle2{
+  font-size: 15px;
+  padding-right: 3vw;
+}
+
+
+.icons {
+  display: flex;
+  gap: 35px;
+  font-size: 22px;
+}
+
+.wrapper-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-img {
+  width: 200px;
+  height: 60px;
+}
+
+.both {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.buttonsupport{
+  letter-spacing: 2px;
+  word-spacing:2px;
+}
+
+.limona {
+  background-color: #b48c72;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  padding: 1.7vh 1vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+
+
+}
+.container-header {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 28px 5vw 26px 5vw;
+}
+.navbar-list {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+  
+}
+.profile {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  cursor: pointer;
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.profile span {
+  font-size: 13px;
+  font-weight: 500;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-color);
+  column-gap: 0.5rem;
+}
+.home-active {
+  color:#5d5050
+}
